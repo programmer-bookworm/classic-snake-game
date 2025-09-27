@@ -4,6 +4,8 @@
 
 This project is a classic Snake game implemented in Python using the `turtle` graphics library. Guide your snake to eat food, grow longer, and avoid crashing into walls or its own tail. The project is divided into modular files for easy understanding and maintenance, demonstrating object-oriented programming concepts and basic game loop mechanics.
 
+**Note:** This code is entirely not my innovation; it was completed as a project in the Udemy course ["100 Days of Code: The Complete Python Pro Bootcamp"](https://www.udemy.com/course/100-days-of-code/).
+
 ## Features
 
 - Snake movement and keyboard controls (arrow keys)
