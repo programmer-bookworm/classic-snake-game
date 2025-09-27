@@ -1,54 +1,47 @@
-# Classic Snake Game 🐍
+# Classic Snake Game in Python
 
-This is a simple recreation of the classic **Snake game** using Python's `turtle` module. Inspired by the iconic game featured on early Nokia phones, this project lets you relive the nostalgia with a modern twist!
+## Description
+
+This project is a classic Snake game implemented in Python using the `turtle` graphics library. Guide your snake to eat food, grow longer, and avoid crashing into walls or its own tail. The project is divided into modular files for easy understanding and maintenance, demonstrating object-oriented programming concepts and basic game loop mechanics.
 
 ## Features
 
-- **Snake Movement:** Control the snake using arrow keys.
-- **Food Spawning:** Eat food to grow longer.
-- **Score Tracking:** Your score increases as you eat more food.
-- **Game Over:** The game ends when the snake hits the wall or itself.
-- **Smooth Animation:** Powered by the turtle graphics library.
+- Snake movement and keyboard controls (arrow keys)
+- Food generation at random positions
+- Score tracking and display
+- Collision detection (food, wall, tail)
+- Modular code with separate classes for Snake, Food, and Scoreboard
 
-## Requirements
+## Files
+
+- `main.py`: Main game loop and event handling
+- `snake.py`: Snake logic and movement
+- `food.py`: Food appearance and refresh
+- `scoreboard.py`: Score tracking and game over display
+
+## Getting Started
+
+### Prerequisites
 
 - Python 3.x
-- `turtle` module (usually included in standard Python installation)
+- `turtle` (included in standard Python distributions)
 
-## How to Run
+### Running the Game
 
-1. **Clone the repository:**
+1. Clone or download the repository.
+2. Ensure all `.py` files are in the same directory.
+3. Run the game:
    ```bash
-   git clone https://github.com/unicorn252729-droid/classic-snake-game.git
-   cd classic-snake-game
+   python main.py
    ```
+4. Use the arrow keys to control the snake.
 
-2. **Run the Python script:**
-   ```bash
-   python snake.py
-   ```
+### Example Gameplay
 
-## Controls
-
-- **Up Arrow:** Move up
-- **Down Arrow:** Move down
-- **Left Arrow:** Move left
-- **Right Arrow:** Move right
-
-## Gameplay
-
-- Use the arrow keys to control the direction of the snake.
-- Eat the food to grow longer and increase your score.
-- Avoid crashing into walls or the snake's own body.
-
-## Screenshots
-
-*(Add your gameplay screenshots here!)*
-
-## Credits
-
-Made with ❤️ using Python and the turtle module.
+- Eat blue food to grow longer and score points.
+- Avoid running into walls or your own tail.
+- The game ends when you crash, and your final score is displayed.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is open source and available under the MIT License.
